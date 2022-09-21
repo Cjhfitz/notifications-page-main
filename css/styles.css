@@ -1,0 +1,11 @@
+.notifications-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    column-gap: 20px;
+}
+
+.push-left {
+    margin-right: auto;
+  }
