@@ -27,31 +27,36 @@
     </style>
   </head>
   <body>
-    <section class="notifications-title">
-      <h2>Notifications</h2>
-      <span id="notification-number" class="push-left number-of-notifications"
-        >3</span
-      >
-      <p class="mark-read">Mark all as read</p>
-    </section>
-    <section class="notifications-list">
-      <div class="notification">
-        <img
-          src="assets/images/avatar-angela-gray.webp"
-          alt="a user's profile picture"
-        />
-        <div class="notification-body">
-          <p><span class="name">Angela Gray</span> Followed you</p>
-          <span class="time-passed">5m ago</span>
+    <main class="container">
+      <section class="notifications-title">
+        <h2>Notifications</h2>
+        <span id="notification-number" class="push-left number-of-notifications"
+          >3</span
+        >
+        <p class="mark-read">Mark all as read</p>
+      </section>
+      <section class="notifications-list">
+        <div class="notification">
+          <div class="notification-img">
+            <img
+              src="assets/images/avatar-angela-gray.webp"
+              alt="a user's profile picture"
+            />
+          </div>
+          <div class="notification-body">
+            <p><span class="name">Angela Gray</span> Followed you</p>
+            <span class="time-passed">5m ago</span>
+            <div class="unread"></div>
+          </div>
         </div>
+      </section>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Conor Fitzgerald</a>.
       </div>
-    </section>
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Conor Fitzgerald</a>.
-    </div>
+    </main>
   </body>
 </html>
 
