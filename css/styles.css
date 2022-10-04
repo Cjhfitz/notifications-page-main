@@ -1,12 +1,12 @@
-/* body {
+body {
     background-color: rgba(212, 214, 216, 0.945);
-} */
+}
 
-/* .container {
+.container {
     width: 75%;
     margin: 0 auto;
     background-color: #fff;
-} */
+}
 
 .notifications-title {
     display: flex;
@@ -46,20 +46,15 @@
     flex-direction: row;
     column-gap: 0.325rem;
     align-items: center;
+    border-radius: 0.625rem;
+    padding: 0.625rem;
+    margin-bottom: 0.625rem;
 }
 
 .notification-body {
     width: 100%;
     display: flex;
     flex-direction: column;
-}
-
-.indicator {
-    background-color: red;
-    border-radius: 100%;
-    width: 0.625rem;
-    height: 0.625rem;
-    display: inline-block;
 }
 
 img {
@@ -70,4 +65,16 @@ img {
 .notification-img {
     display: flex;
     justify-content: center;
+}
+
+.indicator {
+    background-color: red;
+    border-radius: 100%;
+    width: 0.625rem;
+    height: 0.625rem;
+    display: inline-block;
+}
+
+.unread-notification {
+    background-color: rgb(230, 230, 230);
 }
