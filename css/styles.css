@@ -54,7 +54,7 @@ body {
     margin-bottom: 0.625rem;
 }
 
-.notification-body {
+.notification-content {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -80,4 +80,18 @@ img {
 
 .unread-notification {
     background-color: rgb(230, 230, 230);
+}
+
+.name {
+    font-weight: 700;
+}
+
+.title {
+    color: rgba(184, 184, 184, 0.671);
+}
+
+.message {
+    padding: 0.625rem;
+    border: 1px solid rgb(230, 227, 227);
+    border-radius: 0.625rem;
 }
