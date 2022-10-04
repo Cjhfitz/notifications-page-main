@@ -54,10 +54,9 @@ body {
     margin-bottom: 0.625rem;
 }
 
-.notification-content {
-    width: 100%;
+.notification__img {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
 
 img {
@@ -65,33 +64,42 @@ img {
     height: 75%;
 }
 
-.notification-img {
+.notification__body {
+    width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 
+.notification__text {
+    color: rgba(99, 95, 95, 0.671);
+}
+
+
 .indicator {
-    background-color: red;
+    background-color: rgba(248, 42, 42, 0.74);
     border-radius: 100%;
     width: 0.625rem;
     height: 0.625rem;
     display: inline-block;
 }
 
-.unread-notification {
+.notification--unread {
     background-color: rgb(230, 230, 230);
 }
 
 .name {
+    color: black;
     font-weight: 700;
 }
 
 .title {
-    color: rgba(184, 184, 184, 0.671);
+    color: rgba(48, 47, 47, 0.5);
+    font-weight: 700;
 }
 
 .message {
     padding: 0.625rem;
-    border: 1px solid rgb(230, 227, 227);
+    border: 1px solid rgb(167, 167, 167);
     border-radius: 0.625rem;
+    color: rgb(99, 95, 95);
 }
