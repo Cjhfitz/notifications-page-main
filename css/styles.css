@@ -6,6 +6,7 @@ body {
     width: 75%;
     margin: 0 auto;
     background-color: #fff;
+    border-radius: 0.625rem;
 }
 
 .notifications-title {
@@ -31,8 +32,10 @@ body {
 }
 
 .mark-read {
-    font-weight: 600;
+    font-size: large;
     color: rgba(184, 184, 184, 0.671);
+    border: none;
+    background-color: #fff;
 }
 
 
